@@ -18,9 +18,9 @@ Here's an overview of the project structure:
 - **vite.config.js**: Vite configuration file.
 - **package.json**: Project dependencies and scripts.
 
+<hr>
 
 ## Tech stack used:
--------
 The tech stack used here is:
 
 - React JS
