@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-=======
 # campUS(Web Version)
 -------
 A University based community building app cum website that enables students on campus to help each other and gain points, resulting in them being more recognized. Students can post their requests, and other people on campus can view their requests and attend to their requests, enabling students on campus to assist each other at times of need, while ensuring that they form valuable connections and networks in the process.
@@ -178,4 +168,3 @@ If you have any questions or need further assistance, please don't hesitate to r
 ## Maintainers
 1) [Syed Hisham Akmal](https://github.com/sikehish)
 1) [Sanjay M](https://github.com/sanjay14073)
->>>>>>> 34bb4dfd3fafd71cf24101054bde85ccda9d5634
