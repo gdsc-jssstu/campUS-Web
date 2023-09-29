@@ -8,17 +8,16 @@ import Login from "./pages/Login"
 import Home from "./pages/Home"
 
 export default function App() {
-
-  const { currentUser } = useAuth()
+  const  currentUser  = useAuth()
 
   return (
     <>
     <Navbar />
     <Routes>
+    <Route  path="/" element={<Home />} />
       {!currentUser && <Route  path="/signup" element={<Signup />} />}
-      {!currentUser && <Route  path="/signup" element={<Login />} />}
+      {!currentUser && <Route  path="/login" element={<Login />} />}
       {currentUser && <Route  path="/profile" element={<Profile />} />}
-      {!currentUser && <Route  path="/profile" element={<Home />} />}
     </Routes>
     <ToastContainer position="top-right"/>
   </>
