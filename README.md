@@ -123,9 +123,9 @@ To use your own Firebase project with campUS-Web, follow these steps to replace 
 ### Push Changes
 
 - Push your changes to your forked repository on GitHub:
-```
-git push origin feature/your-feature-name
-```
+  ```
+  git push origin feature/your-feature-name
+  ```
 
 <hr>
 
