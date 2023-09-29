@@ -31,6 +31,7 @@ The tech stack used here is:
 - Vite
 
 <hr>
+
 #### Before contributing look into [CONTRIBUTING GUIDELINES](./CONTRIBUTING.md)
 #### Our Code of Conduct: [CODE OF CONDUCT](./CODE_OF_CONDUCT.md)
 <hr>
