@@ -47,7 +47,10 @@ The tech stack used here is:
    cd campUS-Web
    ```
    
-- **Install project dependencies** using npm (Node Package Manager): ```npm install```
+- **Install project dependencies** using npm (Node Package Manager):
+  ```
+  npm install
+  ```
 
 - **Create a new branch** for your contribution. Replace *'feature/your-feature-name'* with a descriptive branch name related to your contribution:
   
@@ -108,15 +111,21 @@ To use your own Firebase project with campUS-Web, follow these steps to replace 
 ### Development
 
 - Make your changes or additions to the codebase. Test your changes to ensure they work as expected. To run the website on your localhost:
-   ```npm run dev```
+   ```
+  npm run dev
+   ```
 
 - Commit your changes with a descriptive commit message:
-   ```git commit -m "Add your descriptive message here" ```
+  ```
+  git commit -m "Add your descriptive message here"
+  ```
 
 ### Push Changes
 
 - Push your changes to your forked repository on GitHub:
-```git push origin feature/your-feature-name```
+```
+git push origin feature/your-feature-name
+```
 
 <hr>
 
