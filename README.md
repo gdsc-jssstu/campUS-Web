@@ -28,10 +28,10 @@ The tech stack used here is:
 - Google Firebase
 - Vite
 
--------
+<hr>
 #### Before contributing look into [CONTRIBUTING GUIDELINES](./CONTRIBUTING.md)
 #### Our Code of Conduct: [CODE OF CONDUCT](./CODE_OF_CONDUCT.md)
--------
+<hr>
 
 ## Project setup instructions:
  
@@ -61,7 +61,7 @@ The tech stack used here is:
 7. Push your changes to your forked repository on GitHub:
 `git push origin feature/your-feature-name`
 
---------
+<hr>
 
 ## Getting started with contributions
 
@@ -77,20 +77,27 @@ Submit the PR.
 The maintainers will review your PR and may request changes or provide feedback.
 Once your PR is approved, it will be merged into the main repository.
 
+<hr>
+
 ## Final version of the project
--------
+
 <!--- Place the link to the Figma file inside () --->
 Click [here](https://www.figma.com/proto/MfbtIqwt0fjPtmWOuQ7yCQ/CampUs?type=design&node-id=12-364&t=9JuB3TEFpHrqwBXt-1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=12%3A364) for the UI design and prototype of the project.
 
+<hr>
 
 ## Intended final project:
--------
- A responsive and aesthetically designed university-community building website called campUS(Web version).
+
+A responsive and aesthetically designed university-community building website called campUS(Web version).
+
+ <hr>
 
 ## Thank You
--------
+
 Thank you for contributing to campUS-web! Your contributions help make this project better for everyone.
 If you have any questions or need further assistance, please don't hesitate to reach out to us.
+
+<hr>
 
 ## Maintainers
 1) [Syed Hisham Akmal](https://github.com/sikehish)
