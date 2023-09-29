@@ -51,7 +51,7 @@ The tech stack used here is:
 
 - **Create a new branch** for your contribution. Replace *'feature/your-feature-name'* with a descriptive branch name related to your contribution:
   
-- ### Replace Firebase Configuration
+### Replace Firebase Configuration
 
 To use your own Firebase project with campUS-web, follow these steps to replace the Firebase configuration:
 
