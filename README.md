@@ -12,7 +12,7 @@ Here's an overview of the project structure:
   - **firebase**: Firebase configuration and related files.
   - **App.jsx**: The main application component.
   - **index.js**: Entry point for the application.
-- **.env.local**: Environment variables for development.
+- **.env**: Environment variables for development.
 - **vite.config.js**: Vite configuration file.
 - **package.json**: Project dependencies and scripts.
 
