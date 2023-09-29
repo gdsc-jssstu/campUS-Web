@@ -38,30 +38,30 @@ The tech stack used here is:
 
 ## Project setup instructions:
  
-1. **Fork the repository** to your GitHub account by clicking the "Fork" button at the top-right corner of this page. This will create a copy of the repository under your account.
+- **Fork the repository** to your GitHub account by clicking the "Fork" button at the top-right corner of this page. This will create a copy of the repository under your account.
 
-2. **Clone your forked repository** to your local machine using Git. Replace `your-username` with your GitHub username:
+- **Clone your forked repository** to your local machine using Git. Replace `your-username` with your GitHub username:
 
    `
    git clone https://github.com/your-username/campUS-Web.git
    cd campUS-web
    `
    
-3. **Install project dependencies** using npm (Node Package Manager): `npm install`
+- **Install project dependencies** using npm (Node Package Manager): `npm install`
 
-4. **Create a new branch** for your contribution. Replace *'feature/your-feature-name'* with a descriptive branch name related to your contribution:
+- **Create a new branch** for your contribution. Replace *'feature/your-feature-name'* with a descriptive branch name related to your contribution:
 
 ### Development
 
-5. Make your changes or additions to the codebase. Test your changes to ensure they work as expected. To run the website on your localhost:
+- Make your changes or additions to the codebase. Test your changes to ensure they work as expected. To run the website on your localhost:
    `npm run dev`
 
-6. Commit your changes with a descriptive commit message:
+- Commit your changes with a descriptive commit message:
    `git commit -m "Add your descriptive message here" `
 
 ### Push Changes
 
-7. Push your changes to your forked repository on GitHub:
+- Push your changes to your forked repository on GitHub:
 `git push origin feature/your-feature-name`
 
 <hr>
