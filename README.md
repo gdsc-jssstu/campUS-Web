@@ -44,7 +44,7 @@ The tech stack used here is:
 
    `
    git clone https://github.com/your-username/campUS-Web.git
-   cd campUS-web
+   cd campUS-Web
    `
    
 - **Install project dependencies** using npm (Node Package Manager): `npm install`
@@ -53,7 +53,7 @@ The tech stack used here is:
   
 ### Replace Firebase Configuration
 
-To use your own Firebase project with campUS-web, follow these steps to replace the Firebase configuration:
+To use your own Firebase project with campUS-Web, follow these steps to replace the Firebase configuration:
 
 1. **Create a Firebase Project**:
 
@@ -81,7 +81,7 @@ To use your own Firebase project with campUS-web, follow these steps to replace 
 
 3. **Replace Firebase Configuration**:
 
-   - Open the `src/firebase/firebase.js` file in your campUS-web project.
+   - Open the `src/firebase/firebase.js` file in your campUS-Web project.
    - Replace the existing Firebase configuration with the configuration you obtained from Firebase Console.
 
    Example:
