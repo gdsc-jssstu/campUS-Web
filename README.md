@@ -3,6 +3,7 @@
 A University based community building app cum website that enables students on campus to help each other and gain points, resulting in them being more recognized. Students can post their requests, and other people on campus can view their requests and attend to their requests, enabling students on campus to assist each other at times of need, while ensuring that they form valuable connections and networks in the process.
 
 ## Project Structure
+-------
 Here's an overview of the project structure:
 
 - **public**: Contains static assets like HTML files and images.
@@ -19,7 +20,7 @@ Here's an overview of the project structure:
 
 
 ## Tech stack used:
-
+-------
 The tech stack used here is:
 
 - React JS
@@ -27,20 +28,70 @@ The tech stack used here is:
 - Google Firebase
 - Vite
 
-
+-------
 #### Before contributing look into [CONTRIBUTING GUIDELINES](./CONTRIBUTING.md)
 #### Our Code of Conduct: [CODE OF CONDUCT](./CODE_OF_CONDUCT.md)
-
+-------
 
 ## Project setup instructions:
-	
+ 
+1. **Fork the repository** to your GitHub account by clicking the "Fork" button at the top-right corner of this page. This will create a copy of the repository under your account.
 
+2. **Clone your forked repository** to your local machine using Git. Replace `your-username` with your GitHub username:
+
+   `
+   git clone https://github.com/your-username/campUS-Web.git
+   cd campUS-web
+   `
+   
+3. **Install project dependencies** using npm (Node Package Manager): `npm install`
+
+4. **Create a new branch** for your contribution. Replace *'feature/your-feature-name'* with a descriptive branch name related to your contribution:
+
+***Development***
+
+5. Make your changes or additions to the codebase. Test your changes to ensure they work as expected. To run the website on your localhost:
+   `npm run dev`
+
+6. Commit your changes with a descriptive commit message:
+   `git commit -m "Add your descriptive message here" `
+
+***Push Changes***
+
+7. Push your changes to your forked repository on GitHub:
+`git push origin feature/your-feature-name`
+
+--------
+
+## Getting started with contributions
+
+***Create a Pull Request (PR)***
+
+Visit the [campUS-Web](https://github.com/gdsc-jssstu/campUS-Web) repository on GitHub.
+Click the "Compare & pull request" button next to your recently pushed branch.
+Follow the PR template and guidelines. Provide details about your changes.
+Submit the PR.
+
+***Review and Merge***
+
+The maintainers will review your PR and may request changes or provide feedback.
+Once your PR is approved, it will be merged into the main repository.
 
 ## Final version of the project
+-------
 <!--- Place the link to the Figma file inside () --->
 Click [here](https://www.figma.com/proto/MfbtIqwt0fjPtmWOuQ7yCQ/CampUs?type=design&node-id=12-364&t=9JuB3TEFpHrqwBXt-1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=12%3A364) for the UI design and prototype of the project.
 
 
 ## Intended final project:
+-------
  A responsive and aesthetically designed university-community building website called campUS(Web version).
 
+## Thank You
+-------
+Thank you for contributing to campUS-web! Your contributions help make this project better for everyone.
+If you have any questions or need further assistance, please don't hesitate to reach out to us.
+
+## Maintainers
+1) [Syed Hisham Akmal](https://github.com/sikehish)
+1) [Sanjay M](https://github.com/sanjaym1403)
