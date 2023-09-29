@@ -1,4 +1,4 @@
-# PeerPerks
+# campUS(Web Version)
 -------
 A University based community building app cum website that enables students on campus to help each other and gain points, resulting in them being more recognized. Students can post their requests, and other people on campus can view their requests and attend to their requests, enabling students on campus to assist each other at times of need, while ensuring that they form valuable connections and networks in the process.
 
