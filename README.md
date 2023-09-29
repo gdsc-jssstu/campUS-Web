@@ -51,7 +51,7 @@ The tech stack used here is:
 
 4. **Create a new branch** for your contribution. Replace *'feature/your-feature-name'* with a descriptive branch name related to your contribution:
 
-***Development***
+### Development
 
 5. Make your changes or additions to the codebase. Test your changes to ensure they work as expected. To run the website on your localhost:
    `npm run dev`
@@ -59,7 +59,7 @@ The tech stack used here is:
 6. Commit your changes with a descriptive commit message:
    `git commit -m "Add your descriptive message here" `
 
-***Push Changes***
+### Push Changes
 
 7. Push your changes to your forked repository on GitHub:
 `git push origin feature/your-feature-name`
@@ -68,14 +68,14 @@ The tech stack used here is:
 
 ## Getting started with contributions
 
-***Create a Pull Request (PR)***
+### Create a Pull Request (PR)
 
 Visit the [campUS-Web](https://github.com/gdsc-jssstu/campUS-Web) repository on GitHub.
 Click the "Compare & pull request" button next to your recently pushed branch.
 Follow the PR template and guidelines. Provide details about your changes.
 Submit the PR.
 
-***Review and Merge***
+### Review and Merge
 
 The maintainers will review your PR and may request changes or provide feedback.
 Once your PR is approved, it will be merged into the main repository.
