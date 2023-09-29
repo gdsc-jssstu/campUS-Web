@@ -97,7 +97,7 @@ A responsive and aesthetically designed university-community building website ca
 
 ## Thank You
 
-Thank you for contributing to campUS-web! Your contributions help make this project better for everyone.
+Thank you for contributing to campUS-Web! Your contributions help make this project better for everyone.
 If you have any questions or need further assistance, please don't hesitate to reach out to us.
 
 <hr>
