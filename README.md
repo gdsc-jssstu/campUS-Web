@@ -50,6 +50,60 @@ The tech stack used here is:
 - **Install project dependencies** using npm (Node Package Manager): `npm install`
 
 - **Create a new branch** for your contribution. Replace *'feature/your-feature-name'* with a descriptive branch name related to your contribution:
+  
+- ### Replace Firebase Configuration
+
+To use your own Firebase project with campUS-web, follow these steps to replace the Firebase configuration:
+
+1. **Create a Firebase Project**:
+
+   - Go to the [Firebase Console](https://console.firebase.google.com/).
+   - Click on "Add project" and follow the on-screen instructions to create your project.
+   - Once your project is created, navigate to the project settings.
+
+2. **Generate Firebase Configuration**:
+
+   - In the Firebase project settings, scroll down to the "Your apps" section.
+   - Click on the "Web" app icon (</>) to add a web app to your project.
+   - Register your app by giving it a nickname and enabling Firebase Hosting if needed.
+   - After registering your app, you'll be provided with a Firebase configuration object that looks like this:
+
+     ```javascript
+     const firebaseConfig = {
+       apiKey: "YOUR_API_KEY",
+       authDomain: "YOUR_AUTH_DOMAIN",
+       projectId: "YOUR_PROJECT_ID",
+       storageBucket: "YOUR_STORAGE_BUCKET",
+       messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+       appId: "YOUR_APP_ID"
+     };
+     ```
+
+3. **Replace Firebase Configuration**:
+
+   - Open the `src/firebase/firebase.js` file in your campUS-web project.
+   - Replace the existing Firebase configuration with the configuration you obtained from Firebase Console.
+
+   Example:
+
+   ```javascript
+   // src/firebase/firebase.js
+
+   import { initializeApp } from "firebase/app";
+
+   const firebaseConfig = {
+     apiKey: "YOUR_API_KEY",
+     authDomain: "YOUR_AUTH_DOMAIN",
+     projectId: "YOUR_PROJECT_ID",
+     storageBucket: "YOUR_STORAGE_BUCKET",
+     messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+     appId: "YOUR_APP_ID"
+   };
+
+   const app = initializeApp(firebaseConfig);
+
+   export default app;
+
 
 ### Development
 
