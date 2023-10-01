@@ -27,7 +27,6 @@ export function AuthProvider({ children }) {
     return createUserWithEmailAndPassword(auth, email, password);
   }
 
-  //for admins
   function login(email, password) {
     return signInWithEmailAndPassword(auth,email,password)
   }
