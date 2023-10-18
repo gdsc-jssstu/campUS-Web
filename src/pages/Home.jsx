@@ -24,7 +24,7 @@ const Home = () => {
             </div>
         </div>
 
-        <div id="featureSection" className='flex flex-col lg:flex-row p-2'>
+        <div id="featureSection" className='flex flex-col xl:flex-row p-2'>
             <img src={FeatureImage} alt="Feature" className='w-full p-6'/>
             <div id="featureDescription" className='pl-4 pt-24 sm:pt-24 text-san-marino font-playfair-display font-thin'>
                 <h1 className='text-5xl pl-5'>Features</h1>
