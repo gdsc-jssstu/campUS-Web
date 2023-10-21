@@ -166,9 +166,8 @@ If you have any questions or need further assistance, please don't hesitate to r
 <hr>
 
 ## Contributors
-
-<a href = "https://github.com/gdsc-jssstu/campUS-Web/graphs/contributors">
-  <img src = "https://contrib.rocks/image?repo = gdsc-jssstu/campUS-Web"/>
+<a href="https://github.com/gdsc-jssstu/campUS-Web/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=gdsc-jssstu/campUS-Web" />
 </a>
 
 <hr>
