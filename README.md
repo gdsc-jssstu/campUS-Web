@@ -167,8 +167,8 @@ If you have any questions or need further assistance, please don't hesitate to r
 
 ## Contributors
 
-<a href = "https://github.com/Tanu-N-Prabhu/Python/graphs/contributors">
-  <img src = "https://contrib.rocks/image?repo = GitHub_username/repository_name"/>
+<a href = "https://github.com/gdsc-jssstu/campUS-Web/graphs/contributors">
+  <img src = "https://contrib.rocks/image?repo = gdsc-jssstu/campUS-Web"/>
 </a>
 
 <hr>
