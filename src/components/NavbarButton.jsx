@@ -11,9 +11,14 @@ function NavbarButton({ title, currentUser }) {
       : "text-tea-green";
   }
 
+
   function handleClick() {
-    // TODO: camelize(title) === "logOut" && "logout current user"
-    navigate(path[camelize(title)]);
+    if (camelize(title) === "logOut") {
+      // Handle the "Logout" button click
+      logout();
+    } else {
+      navigate(path[camelize(title)]);
+    }
   }
 
   return (

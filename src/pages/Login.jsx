@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import emailSvg from "../assets/email.svg"
 import lockSvg from "../assets/lock.svg"
+import Loading from "../assets/Loading.svg"
 import { useNavigate } from "react-router-dom";
 import { useAuth } from '../context/AuthContext';
 import toast from 'react-hot-toast';
@@ -8,6 +9,8 @@ import toast from 'react-hot-toast';
 
 const Login = () => {
   const navigate = useNavigate();
+  const [loading, setLoading] = useState(false);
+  const [loadingMessage, setLoadingMessage] = useState("Logging in...");
 
   const {login} = useAuth();
   
@@ -26,6 +29,8 @@ const Login = () => {
     e.preventDefault();
     const { email, password } = formData;
     try {
+      setLoading(true); // Set loading state to true
+      setLoadingMessage("Logging in...");
       // Step 1: Sign in the user using Firebase Authentication
       await login(email, password)
       .then(() => {
@@ -75,12 +80,15 @@ const Login = () => {
       });
     } catch (error) {
         toast.error(error);
+    }finally {
+      setLoading(false); // Set loading state to false when login is complete
     }
   };
   
 
   return (
     <>
+    
     <form onSubmit={handleSubmit}>
       <div id="formWrapper" className='h-89vh font-playfair-display text-san-marino pt-12'>
         <div id="formContainer" className='h-4/5 flex flex-col items-center justify-center gap-12'>
@@ -104,16 +112,21 @@ const Login = () => {
                 placeholder-san-marino hover:border-1 hover:border-dotted" placeholder="Password" name="password" value={formData.password} onChange={handleChange} required/>
               </div>
             </div> 
-
-            <div id="buttonAndLinks" className='flex flex-col items-center justify-center gap-5 '>
-           
+            {loading ? (
+            // Display the loading SVG and message while loading is true
+            <div className="text-center">
+              <img src={Loading} alt="Loading" />
+              <p>{loadingMessage}</p>
+            </div>
+          ) : (
+            <div id="buttonAndLinks" className='flex flex-col items-center justify-center gap-5 '>       
                 <button className=' w-24 h-10 rounded-full bg-lime-green hover:border-2 hover:border-dashed hover:border-green-300'>Login</button>
                 <button className='underline' onClick={() => navigate("/signup")}>New to CampUS? Sign Up instead</button>
             </div>
+        )}
         </div>
       </div>
       </form>
-
     </>
   )
 }
