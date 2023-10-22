@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import { useAuth } from "./context/AuthContext";
 import Signup from "./pages/Signup";
 import Profile from "./pages/Profile";
-import { ToastContainer } from "react-toastify";
+import { Toaster } from 'react-hot-toast';
 import Login from "./pages/Login";
 import Home from "./pages/Home";
 
@@ -12,6 +12,7 @@ export default function App() {
 
   return (
     <>
+      <Toaster/>
       <Navbar currentUser={currentUser} />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -19,7 +20,6 @@ export default function App() {
         {!currentUser && <Route path="/login" element={<Login />} />}
         {currentUser && <Route path="/profile" element={<Profile />} />}
       </Routes>
-      <ToastContainer position="top-right" />
     </>
   );
 }

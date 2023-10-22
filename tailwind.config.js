@@ -27,6 +27,16 @@ export default {
       margin:{
         "200": "-200px",
       },
+      width:{
+        "200":"200%",
+        "30%":"30%",
+        "23%":"23%",
+      },
+      height:{
+        "89vw":"89vw",
+        "80vw":"80vw",
+        
+      },
     },
     fontFamily: {
       "playfair-display": ["Playfair Display"],
