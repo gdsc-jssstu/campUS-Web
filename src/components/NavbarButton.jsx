@@ -12,6 +12,7 @@ function NavbarButton({ title, currentUser }) {
   }
 
   function handleClick() {
+    // TODO: camelize(title) === "logOut" && "logout current user"
     navigate(path[camelize(title)]);
   }
 

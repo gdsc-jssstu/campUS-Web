@@ -1,11 +1,10 @@
 export const path = {
   home: "/",
   myProfile: "/profile",
-  // TODO: update below routes when defined
-  requests: "/a",
-  myRequests: "/b",
-  aboutUs: "/c",
-  logOut: "/d",
+  requests: "/requests",
+  myRequests: "/myrequests",
+  aboutUs: "/aboutus",
+  logOut: "/",
 };
 
 export function camelize(text) {
