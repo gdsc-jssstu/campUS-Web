@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import Signup from "./pages/Signup";
 import Profile from "./pages/Profile";
 import AboutUs from "./pages/AboutUs";
+import { Toaster } from 'react-hot-toast';
 import Login from "./pages/Login";
 import Home from "./pages/Home";
 import Requests from "./pages/Requests"
@@ -38,6 +39,7 @@ export default function App() {
 
   return (
     <>
+      <Toaster/>
       <Navbar currentUser={currentUser} />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -59,7 +61,6 @@ export default function App() {
           />
         ))}
       </Routes>
-      <ToastContainer position="top-right" />
     </>
   );
 }
