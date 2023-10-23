@@ -45,7 +45,7 @@ export function AuthProvider({ children }) {
   function logout() {
     signOut(auth);
     toast.success('Logged out!')
-    navigate('/login')
+    navigate('/')
   }
 
   useEffect(() => {
