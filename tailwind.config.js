@@ -10,8 +10,9 @@ export default {
       "tea-green": "#bfedc1",
       "white": "#fff",
       "yellow-tick": "#efead8",
-      "lime-green":"#C8ECC5",
-      "aubergine" : "#906296",
+      "lime-green": "#C8ECC5",
+      "aubergine": "#906296",
+      "light-purple": "#7E94C7",
     },
     extend: {
       spacing: {
@@ -19,23 +20,23 @@ export default {
         "78px": "78px",
         "120px": "120px",
       },
-      padding:{
+      padding: {
         "350": "350px",
         "500": "500px",
         "700": "700px",
-        "200":"-700px",
+        "200": "-700px",
       },
-      margin:{
+      margin: {
         "200": "-200px",
       },
-      width:{
-        "200":"200%",
-        "30%":"30%",
-        "23%":"23%",
+      width: {
+        "200": "200%",
+        "30%": "30%",
+        "23%": "23%",
       },
-      height:{
-        "89vw":"89vw",
-        "80vw":"80vw",
+      height: {
+        "89vw": "89vw",
+        "80vw": "80vw",
       },
     },
     fontFamily: {
