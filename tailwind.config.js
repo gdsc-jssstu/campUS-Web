@@ -11,6 +11,7 @@ export default {
       "white": "#fff",
       "yellow-tick": "#efead8",
       "lime-green":"#C8ECC5",
+      "aubergine" : "#906296",
     },
     extend: {
       spacing: {
@@ -35,11 +36,11 @@ export default {
       height:{
         "89vw":"89vw",
         "80vw":"80vw",
-        
       },
     },
     fontFamily: {
       "playfair-display": ["Playfair Display"],
+      "raleway": ["Raleway"],
     },
   },
   plugins: [],

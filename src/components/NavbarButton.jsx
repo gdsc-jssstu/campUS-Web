@@ -1,9 +1,11 @@
 import PropTypes from "prop-types";
 import { useNavigate } from "react-router-dom";
 import { camelize, path } from "../helpers/navbar";
+import { useAuth } from "../context/AuthContext"; // Import the AuthContext
 
 function NavbarButton({ title, currentUser }) {
   const navigate = useNavigate();
+  const { logout } = useAuth(); // Get the logout function from the AuthContext
 
   function textClassName() {
     return currentUser && window.location.pathname === path[camelize(title)]
