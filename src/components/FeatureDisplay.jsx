@@ -23,6 +23,7 @@ const FeaturesDisplay = ({ features }) => {
             <FeatureCard
                 title={features[currentFeatureIndex].title}
                 description={features[currentFeatureIndex].description}
+                logo={features[currentFeatureIndex].logo}
             />
         </div>
     );
