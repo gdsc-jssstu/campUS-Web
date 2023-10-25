@@ -16,12 +16,13 @@ import {
 //   appId: import.meta.env.VITE_APP_ID,
 // };
 const firebaseConfig = {
-  apiKey: "AIzaSyCdEYfdQ1cUaC4lmcLEMKLFYkYaKaaZe1U",
-  authDomain: "campus-web-cd526.firebaseapp.com",
-  projectId: "campus-web-cd526",
-  storageBucket: "campus-web-cd526.appspot.com",
-  messagingSenderId: "144633949499",
-  appId: "1:144633949499:web:7794912d9254d8e82fdb1e"
+  apiKey: "AIzaSyAhxATFh9ocH8HLMDXQ2N3rUDl_4c92cLI",
+  authDomain: "contribution-14183.firebaseapp.com",
+  projectId: "contribution-14183",
+  storageBucket: "contribution-14183.appspot.com",
+  messagingSenderId: "500510515214",
+  appId: "1:500510515214:web:f9b6be43d2d76b8d1e9c5f",
+  measurementId: "G-FVNZK3S89F"
 };
 
 // Initialize Firebase
