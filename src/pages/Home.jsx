@@ -37,7 +37,11 @@ const Home = () => {
             <img src={DownArrow} alt="Twisted downwards arrow" />
             <div className='pl-2 pt-60'>
                 <button onClick={() => navigate("/login")}
-                className=' border bg-lime-green text-3xl gap-2 m-2 p-5 rounded-lg flex text-san-marino font-playfair-display h-24 sm:h-20 '>Get Started <img src={RightArrow} alt="right arrow"/> </button>
+                className=' border bg-lime-green text-3xl gap-2 m-2 p-5 rounded-lg flex text-san-marino font-playfair-display h-24 sm:h-20 '
+                style={{ whiteSpace: 'nowrap' }}
+                >
+                    Get Started <img src={RightArrow} alt="right arrow"/> 
+                    </button>
             </div>
         </div>
 
