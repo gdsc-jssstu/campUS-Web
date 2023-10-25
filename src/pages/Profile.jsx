@@ -24,7 +24,7 @@ function Profile() {
   };
 
   const goToEditProfile = () => {
-    navigate('/editprofile');
+    navigate('/edit-profile');
   };
 
   return (

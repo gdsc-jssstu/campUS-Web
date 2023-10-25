@@ -5,6 +5,7 @@ import { ToastContainer } from "react-toastify";
 import Navbar from "./components/Navbar";
 import Signup from "./pages/Signup";
 import Profile from "./pages/Profile";
+import EditProfile from "./pages/EditProfile";
 import AboutUs from "./pages/AboutUs";
 import { Toaster } from 'react-hot-toast';
 import Login from "./pages/Login";
@@ -22,6 +23,7 @@ export default function App() {
     { path: 'requests', component: <Requests /> },
     { path: 'myrequests', component: <MyRequests /> },
     { path: 'profile', component: <Profile /> },
+    { path: 'edit-profile', component: <EditProfile /> },
   ];
 
   const authRoutes = [
