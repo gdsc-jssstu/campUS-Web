@@ -26,12 +26,17 @@ const Home = () => {
                 </div>
             </div>
 
-            <div id="featureSection" className='flex flex-col xl:flex-row p-2'>
-                <div className='w-full xl:w-1/2 xl:h-64'>
-                    <img src={FeatureImage} alt="Feature" className='w-full h-full object-cover p-6' />
+            <div id="featureSection" className='flex flex-col items-center xl:flex-row p-2'>
+                <div className='w-full xl:w-1/2 xl:h-96'>
+                    <img
+                        src={FeatureImage}
+                        alt="Feature"
+                        className='w-full h-full object-contain p-6'
+                    />
                 </div>
-                <FeaturesDisplay features={features}/>
+                <FeaturesDisplay features={features} />
             </div>
+
 
 
             <div id="getStartedSection" className='pb-2 flex justify-center'>
