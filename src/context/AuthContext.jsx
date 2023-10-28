@@ -62,6 +62,19 @@ export function AuthProvider({ children }) {
       return null;
     }
   }
+  
+  //Function to update user profile
+  async function updateUserData(uid, updatedUserData) {
+    try {
+      const userDocRef = doc(db, 'users', uid);
+      const userDoc = await getDoc(userDocRef);
+      if(userDoc.exists()) {
+        await setDoc(userDocRef, updatedUserData)
+      }
+    } catch(error) {
+      console.log('Error updating user data:', error);
+    }
+  }
 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (user) => {
@@ -80,6 +93,7 @@ export function AuthProvider({ children }) {
     logout,
     addUserToFirestore,
     getUserData,
+    updateUserData
   };
 
   return (
