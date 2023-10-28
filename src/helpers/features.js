@@ -14,7 +14,7 @@ export const features = [
         title: "User Profiles",
         description: "Allow users to create and customize their profiles with personal information and avatars.",
         logo: ProfileIcon,
-        bgGradient: "from-cyan-200 to-cyan-400" //tailwind CSS gradient codes
+        bgGradient: "from-indigo-200 to-cyan-400" //tailwind CSS gradient codes
     },
     {
         title: "Search Functionality",
@@ -26,7 +26,7 @@ export const features = [
         title: "Messaging System",
         description: "Implement real-time chat or messaging for communication between users.",
         logo: Message,
-        bgGradient: "from-fuchsia-300 via-green-400 to-rose-700" //tailwind CSS gradient codes
+        bgGradient: "from-rose-300 to-pink-400" //tailwind CSS gradient codes
     },
     {
         title: "Notifications",
