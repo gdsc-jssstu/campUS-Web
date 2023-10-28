@@ -24,6 +24,7 @@ const FeaturesDisplay = ({ features }) => {
                 title={features[currentFeatureIndex].title}
                 description={features[currentFeatureIndex].description}
                 logo={features[currentFeatureIndex].logo}
+                bgColor = {features[currentFeatureIndex].bgGradient}
             />
         </div>
     );
