@@ -5,16 +5,16 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    colors: {
-      "san-marino": "#4a55a2",
-      "tea-green": "#bfedc1",
-      "white": "#fff",
-      "yellow-tick": "#efead8",
-      "lime-green": "#C8ECC5",
-      "aubergine": "#906296",
-      "light-purple": "#7E94C7",
-    },
     extend: {
+      colors: {
+        "san-marino": "#4a55a2",
+        "tea-green": "#bfedc1",
+        "white": "#fff",
+        "yellow-tick": "#efead8",
+        "lime-green": "#C8ECC5",
+        "aubergine": "#906296",
+        "light-purple": "#7E94C7",
+      },
       spacing: {
         "62px": "62px",
         "78px": "78px",
